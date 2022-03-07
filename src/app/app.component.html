@@ -1,0 +1,11 @@
+<div>
+  {{title}}
+  <app-todos></app-todos>
+</div>
+
+<hr />
+<button (click)="counter('min')">-</button>
+<p>*Count* {{count}}</p>
+<button (click)="counter('add')">+</button>
+
+<router-outlet></router-outlet>
